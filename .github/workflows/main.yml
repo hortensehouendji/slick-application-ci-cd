@@ -26,5 +26,6 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v5
       with:
+        context: cloudspace/
         push: true
         tags: hortensehouendji/app:latest
